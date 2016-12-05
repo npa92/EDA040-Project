@@ -41,6 +41,7 @@ public class GUI extends JFrame  {
         this.setSize(300, 300);
         this.setVisible(true);
         this.model = model;
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         }
 
 
