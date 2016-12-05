@@ -3,7 +3,7 @@
 ##Group B-2: 
 Anton Danewid,
 Dragan Adzaip,
-Sven Andersen,
+Sven Andersen
 &
 Petter Andersson
 
