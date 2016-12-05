@@ -20,12 +20,14 @@ Also allows Movie-mode messages to be sent.
 Keeps record of how often OutputThread should pull images, based on if Movie-mode is on or off.
 }
 
-###OutputThread{
+###OutputThread
+{
 Continuously tries to pull images from CameraControl and sends them to the client.
 If CameraControl says that a movie-mode message should be sent to the client, that will be sent rather than the picture that would otherwise be sent.
 }
 
-###InputThread{
+###InputThread
+{
 Actively listens for the clients “SignalingThread”. Upon receiving a message, the class/thread goes into the monitor “CameraControl” and changes the status of “movie-mode” on or off. 
 }
 }
