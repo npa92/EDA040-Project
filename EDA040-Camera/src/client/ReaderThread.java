@@ -35,7 +35,7 @@ public class ReaderThread extends Thread {
             InetAddress address = InetAddress.getLocalHost();
             readerSocket = new Socket(address, port);
             System.out.println("Socket created");
-//            readerSocket.connect();
+            readerSocket.connect();
             InputStream is = readerSocket.getInputStream();
             monitor.putOutputStream(readerSocket.getOutputStream());
             while(true) {
