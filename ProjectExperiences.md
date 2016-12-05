@@ -1,9 +1,10 @@
 #EDA040 – Project Report
 
 ##Group B-2: 
-Anton Danewid
-Dragan Adzaip
-Sven Andersen
+Anton Danewid,
+Dragan Adzaip,
+Sven Andersen,
+&
 Petter Andersson
 
 ###Experiences
